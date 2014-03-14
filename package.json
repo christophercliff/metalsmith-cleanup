@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-cleanup",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A Metalsmith plugin to empty the build directory",
   "main": "./lib/",
   "scripts": {
