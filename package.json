@@ -1,0 +1,27 @@
+{
+  "name": "metalsmith-cleanup",
+  "version": "0.0.0",
+  "description": "A Metalsmith plugin to empty the build directory",
+  "main": "./lib/",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "keywords": [
+    "metalsmith",
+    "cleanup"
+  ],
+  "author": "Christopher Cliff <ctcliff@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/christophercliff/metalsmith-cleanup"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "rimraf": "^2.2.6"
+  },
+  "devDependencies": {
+    "assert-dir-equal": "^1.0.1",
+    "metalsmith": "^0.3.0",
+    "mocha": "^1.17.1"
+  }
+}
